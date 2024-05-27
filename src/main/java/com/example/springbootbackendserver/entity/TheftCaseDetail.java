@@ -1,5 +1,6 @@
 package com.example.springbootbackendserver.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -16,5 +17,6 @@ public class TheftCaseDetail extends CaseDetail {
     }
 
     @Enumerated(EnumType.STRING)
+    @Column(length = 15)
     private TheftType type;
 }
