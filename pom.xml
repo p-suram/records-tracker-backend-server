@@ -69,6 +69,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<finalName>criminal-records-svc</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
